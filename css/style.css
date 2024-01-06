@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+/* navbar css */
+header {
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vmax;
+}
+
+.brand {
+    font-size: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-list ul li {
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-list ul li a:hover {
+    color: orangered;
+}
+
+
+
+/* hero css */
+.hero {
+    background: url(/assets/COVER.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+}
+
+.hero {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.hero h1 {
+    margin: 30px;
+    width: 850px;
+    font-size: 7rem;
+}
+
+.hero p {
+    margin: 40px;
+    width: 30%;
+    font-size: 20px;
+}
+
+.hero a {
+    margin: 50px;
+    padding: 20px 40px 20px 40px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+}
+
+/* maincss */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+
+}
+
+.main h1 {
+    text-align: justify;
+    letter-spacing: 4px;
+}
+
+.main-random {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 100px;
+    padding: 100px;
+ 
+}
+.main-random h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    width: 370px;
+    margin: 60px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.flex p {
+    text-align: justify;
+    margin: 40px;
+    width: 500px;
+    font-size: 24px;
+}
+
+
+.exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.exp-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.exp-right h1{
+    font-size: 32px;
+}
+.exp-right P{
+    font-size: 24px;
+}
+
+                /* news compartment */
+.news{
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 50px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.news-flex{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    justify-content: center;
+}
+.news-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.563);
+    margin: 10px;
+    padding: 10px;
+    height: 400px;
+    cursor: pointer;
+}
+.news-card img{
+    width: 300px;
+}
+
+                        /* footer-csss */
+.footer{
+   padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-brand{
+    font-size: 40px
+}
+.footer-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-list ul li{
+    list-style: none;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    padding: 10px 150px 10px 0px;
+    margin: 5px;
+    border-radius: 5px;
+    border: solid;
+}
+
+#submit{
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    font-style: 20px;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.banner{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 600;
+
+}
